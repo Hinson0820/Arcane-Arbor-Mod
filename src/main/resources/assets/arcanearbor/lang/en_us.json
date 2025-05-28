@@ -1,0 +1,75 @@
+{
+  "block.arcanearbor.luminwood_log": "Luminwood Log",
+  "block.arcanearbor.stripped_luminwood_log": "Stripped Luminwood Log",
+  "block.arcanearbor.luminwood_wood": "Luminwood Wood",
+  "block.arcanearbor.stripped_luminwood_wood": "Stripped Luminwood Wood",
+  "block.arcanearbor.luminwood_leaves": "Luminwood Leaves",
+  "block.arcanearbor.luminfruit_block": "Luminfruit Cluster",
+  "block.arcanearbor.luminwood_sapling": "Luminwood Sapling",
+  "creativetab.arcanearbor_tab": "Luminwood",
+
+  "block.arcanearbor.arcane_enchantment_table": "Arcane Enchantment Table",
+
+  "container.arcanearbor.arcane_enchantment_table": "Arcane Enchantment",
+
+  "enchantment.arcanearbor.ignore_pain": "Ignore Pain",
+  "enchantment.arcanearbor.ignore_pain.tooltip.absorption": "Absorbs %s of damage, applies Bleed.",
+  "enchantment.arcanearbor.ignore_pain.tooltip.bleed": "Bleed deals stored damage over %s seconds.",
+  "enchantment.arcanearbor.ignore_pain.tooltip.strength": "Grants Strength while bleeding.",
+
+  "enchantment.arcanearbor.lifesteal": "Lifesteal",
+  "enchantment.arcanearbor.lifesteal.tooltip.absorb": "Heals for %s of damage dealt.",
+  "enchantment.arcanearbor.lifesteal.tooltip.regen": "Grants brief Regeneration on hit.",
+
+  "tooltip.arcanearbor.arcane_enchantment_singular": "Arcane Enchantment:",
+  "tooltip.arcanearbor.arcane_enchantments": "Arcane Enchantments:",
+
+  "enchantment.level.1": "%s I",
+  "enchantment.level.2": "%s II",
+  "enchantment.level.3": "%s III",
+  "enchantment.level.4": "%s IV",
+  "enchantment.level.5": "%s V",
+
+  "message.arcanearbor.no_item_to_enchant": "No item in slot to enchant.",
+  "message.arcanearbor.enchant_not_found": "Arcane enchantment definition not found.",
+  "message.arcanearbor.not_enough_mana": "Not enough Mana. Requires: %s",
+  "message.arcanearbor.enchant_success": "Successfully enchanted with %s!",
+  "message.arcanearbor.enchant_fail_destroyed": "Enchantment failed... %s shattered!",
+  "message.arcanearbor.enchant_fail_safe": "Enchantment failed, but your item is safe.",
+  "message.arcanearbor.already_has_enchant": "This item already possesses an Arcane Enchantment.",
+  "message.arcanearbor.cannot_apply_to_item": "This enchantment cannot be applied to this item.",
+  "message.arcanearbor.prerequisites_not_met_for_level": "The arcane conditions for this enchantment are not met.",
+  "message.arcanearbor.enchant_fail_no_level": "Enchantment failed: a valid level could not be determined.",
+  "message.arcanearbor.enchant_fail_unknown": "Enchantment failed for an unknown reason.",
+  "message.arcanearbor.missing_materials": "Missing required materials for enchantment.",
+
+  "gui.arcanearbor.arcane_enchantment_table.enchant": "Enchant",
+  "gui.arcanearbor.showing_stats_for_level": "Showing base stats (Level %s):",
+  "gui.arcanearbor.level_probabilities": "Level Chances (on success):",
+  "gui.arcanearbor.cost_display": "Mana Cost: %s",
+  "gui.arcanearbor.success_rate": "Success Chance: %s",
+  "gui.arcanearbor.break_chance_on_fail": "Break Chance (on fail): %s",
+  "gui.arcanearbor.prerequisites": "Prerequisites:",
+  "gui.arcanearbor.prerequisites.met": "Met",
+  "gui.arcanearbor.prerequisites.not_met": "Not Met",
+  "gui.arcanearbor.materials_required": "Materials Required:",
+  "gui.arcanearbor.select_enchantment": "Select an enchantment from the list.",
+  "gui.arcanearbor.insert_item": "Insert an item to enchant.",
+
+  "gui.arcanearbor.prereq_desc.ignore_pain.level1": "Player must not be at full health.",
+  "gui.arcanearbor.prereq_desc.lifesteal.level1": "Requires 3+ Wither Skeletons nearby and Wither effect on player.",
+
+  "gui.narrate.enactment_list": "Arcane Enchantment List",
+  "gui.narrate.usage.scroll": "Use mouse wheel or arrow keys to scroll.",
+  "gui.narrate.hovered_enactment": "Hovering over: %s",
+  "gui.narrate.selected_enactment": "Selected: %s",
+  "gui.narrate.enactment_list_count": "List contains %s enchantments.",
+
+  "attachment.arcanearbor.mana": "Mana",
+
+  "commands.arcanearbor.mana.setcurrent.success": "Set current mana for %s to %s.",
+  "commands.arcanearbor.mana.setmax.success": "Set max mana for %s to %s.",
+  "commands.arcanearbor.mana.fill.success": "Filled mana for %s to %s.",
+  "commands.arcanearbor.mana.fill.self.success": "Your mana has been filled to %s.",
+  "commands.arcanearbor.error.not_a_player": "This command can only be executed by a player."
+}

@@ -1,0 +1,9 @@
+// 1.21.1	2025-05-28T22:10:13.0043713	Tags for minecraft:block mod id arcanearbor
+da15e3af7284c42eee50d02393d8ccf33dc7becc data/minecraft/tags/block/leaves.json
+bbf53b4bb32591d26265626992e6cf881a9ba125 data/minecraft/tags/block/logs.json
+bbf53b4bb32591d26265626992e6cf881a9ba125 data/minecraft/tags/block/logs_that_burn.json
+e989c41ed612397b11f0dd1998374ccdfd42e36e data/minecraft/tags/block/mineable/axe.json
+da15e3af7284c42eee50d02393d8ccf33dc7becc data/minecraft/tags/block/mineable/hoe.json
+5860d01441100262638a0a359696d36e64a443bf data/minecraft/tags/block/mineable/pickaxe.json
+d77cb763233afc02997c4406edd8c4516c4ceebf data/minecraft/tags/block/saplings.json
+5860d01441100262638a0a359696d36e64a443bf data/neoforge/tags/block/needs_netherite_tool.json

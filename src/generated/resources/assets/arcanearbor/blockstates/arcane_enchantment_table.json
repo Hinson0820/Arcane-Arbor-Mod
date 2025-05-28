@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "arcanearbor:block/arcane_enchantment_table"
+    }
+  }
+}

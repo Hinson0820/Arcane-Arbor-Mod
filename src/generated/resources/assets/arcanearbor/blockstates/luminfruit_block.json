@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "arcanearbor:block/luminfruit_block"
+    },
+    "hanging=true": {
+      "model": "arcanearbor:block/luminfruit_block_hanging"
+    }
+  }
+}

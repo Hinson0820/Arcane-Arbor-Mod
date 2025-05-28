@@ -1,0 +1,5 @@
+// 1.21.1	2025-05-28T22:10:13.0033744	Tags for minecraft:item mod id arcanearbor
+da15e3af7284c42eee50d02393d8ccf33dc7becc data/minecraft/tags/item/leaves.json
+bbf53b4bb32591d26265626992e6cf881a9ba125 data/minecraft/tags/item/logs.json
+bbf53b4bb32591d26265626992e6cf881a9ba125 data/minecraft/tags/item/logs_that_burn.json
+d77cb763233afc02997c4406edd8c4516c4ceebf data/minecraft/tags/item/saplings.json

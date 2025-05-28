@@ -1,0 +1,7 @@
+// 1.21.1	2025-05-28T22:10:13.0063657	Loot Tables
+ed0ceeb3de356ca1c01837a09cc9637dcefc96df data/arcanearbor/loot_table/blocks/arcane_enchantment_table.json
+2a98ea90178cd08cd7212cf2819edce29eb36c50 data/arcanearbor/loot_table/blocks/luminwood_log.json
+50d7ccec18826e64daafaa869e20bf4c3e9ce803 data/arcanearbor/loot_table/blocks/luminwood_sapling.json
+415a5ffd385155175817901d167a13f5434bd9b3 data/arcanearbor/loot_table/blocks/luminwood_wood.json
+a187b23d0960c17b3c4128eaed967b8e2657f9ae data/arcanearbor/loot_table/blocks/stripped_luminwood_log.json
+b9e6432368d867890f7c21af4a6a2ce6a19a3f5e data/arcanearbor/loot_table/blocks/stripped_luminwood_wood.json
