@@ -1,8 +1,7 @@
 package net.hinson820.arcanearbor.common.enchantment;
 
 import net.hinson820.arcanearbor.ArcaneArbor;
-import net.hinson820.arcanearbor.common.enchantment.types.IgnorePainEnchantment;
-import net.hinson820.arcanearbor.common.enchantment.types.LifeStealEnchantment;
+import net.hinson820.arcanearbor.common.enchantment.types.*;
 
 import java.util.*;
 import java.util.function.Supplier;
@@ -13,6 +12,10 @@ public class ArcaneEnchantmentRegistry {
 
     public static final Supplier<ArcaneEnchantment> IGNORE_PAIN = register(IgnorePainEnchantment.ID, IgnorePainEnchantment::new);
     public static final Supplier<ArcaneEnchantment> LIFE_STEAL = register(LifeStealEnchantment.ID, LifeStealEnchantment::new);
+    public static final Supplier<ArcaneEnchantment> EXECUTE = register(ExecuteEnchantment.ID, ExecuteEnchantment::new);
+    public static final Supplier<ArcaneEnchantment> FULL_CRITICAL = register(FullCriticalEnchantment.ID, FullCriticalEnchantment::new);
+    public static final Supplier<ArcaneEnchantment> ATTACK_SPEED = register(AttackSpeedEnchantment.ID, AttackSpeedEnchantment::new);
+    public static final Supplier<ArcaneEnchantment> CHILL = register(ChillEnchantment.ID, ChillEnchantment::new);
 
     private static Supplier<ArcaneEnchantment> register(String id, Supplier<ArcaneEnchantment> enchantmentSupplier) {
         if (REGISTERED_SUPPLIERS.containsKey(id)) {

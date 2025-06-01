@@ -21,8 +21,23 @@
   "enchantment.arcanearbor.lifesteal.tooltip.absorb": "Heals for %s of damage dealt.",
   "enchantment.arcanearbor.lifesteal.tooltip.regen": "Grants brief Regeneration on hit.",
 
+  "enchantment.arcanearbor.execute": "Execute",
+  "enchantment.arcanearbor.execute.tooltip.description": "Instantly kills entities below %s hearts or %s of their max health.",
+
+  "enchantment.arcanearbor.rageblade": "Rageblade",
+  "enchantment.arcanearbor.rageblade.tooltip.description1": "Hitting an enemy reduces attack cooldown by %s. Stacks up to %s times.",
+  "enchantment.arcanearbor.rageblade.tooltip.description2": "Max cooldown reduction: %s.",
+
+  "enchantment.arcanearbor.full_critical": "Full Critical",
+  "enchantment.arcanearbor.full_critical.tooltip.description": "All attacks are guaranteed critical hits.",
+
+  "enchantment.arcanearbor.chill": "Chill",
+  "enchantment.arcanearbor.chill.tooltip.description": "Applies %s %s to enemies for %s seconds on hit.",
+
   "tooltip.arcanearbor.arcane_enchantment_singular": "Arcane Enchantment:",
   "tooltip.arcanearbor.arcane_enchantments": "Arcane Enchantments:",
+
+  "tooltip.arcanearbor.activation_cost": "Activation Cost: %s Mana",
 
   "enchantment.level.1": "%s I",
   "enchantment.level.2": "%s II",
