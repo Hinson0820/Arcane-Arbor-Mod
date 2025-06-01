@@ -16,6 +16,8 @@ public class ArcaneEnchantmentRegistry {
     public static final Supplier<ArcaneEnchantment> FULL_CRITICAL = register(FullCriticalEnchantment.ID, FullCriticalEnchantment::new);
     public static final Supplier<ArcaneEnchantment> ATTACK_SPEED = register(AttackSpeedEnchantment.ID, AttackSpeedEnchantment::new);
     public static final Supplier<ArcaneEnchantment> CHILL = register(ChillEnchantment.ID, ChillEnchantment::new);
+    public static final Supplier<ArcaneEnchantment> INFEST = register(InfestEnchantment.ID, InfestEnchantment::new);
+    public static final Supplier<ArcaneEnchantment> MAGNETIC = register(MagneticEnchantment.ID, MagneticEnchantment::new);
 
     private static Supplier<ArcaneEnchantment> register(String id, Supplier<ArcaneEnchantment> enchantmentSupplier) {
         if (REGISTERED_SUPPLIERS.containsKey(id)) {
@@ -57,6 +59,12 @@ public class ArcaneEnchantmentRegistry {
         ArcaneArbor.LOGGER.info("ArcaneEnchantmentRegistry: Initializing... Static fields should have populated REGISTERED_SUPPLIERS.");
         Supplier<ArcaneEnchantment> ipRef = IGNORE_PAIN;
         Supplier<ArcaneEnchantment> lsRef = LIFE_STEAL;
+        Supplier<ArcaneEnchantment> exRef = EXECUTE;
+        Supplier<ArcaneEnchantment> fcRef = FULL_CRITICAL;
+        Supplier<ArcaneEnchantment> asRef = ATTACK_SPEED;
+        Supplier<ArcaneEnchantment> chRef = CHILL;
+        Supplier<ArcaneEnchantment> inRef = INFEST;
+        Supplier<ArcaneEnchantment> mgRef = MAGNETIC;
 
         ArcaneArbor.LOGGER.info("ArcaneEnchantmentRegistry: REGISTERED_SUPPLIERS count after static field access: {}", REGISTERED_SUPPLIERS.size());
         REGISTERED_SUPPLIERS.forEach((id, supplier) -> ArcaneArbor.LOGGER.info(" -> Registered Supplier in REGISTERED_SUPPLIERS: {}", id));

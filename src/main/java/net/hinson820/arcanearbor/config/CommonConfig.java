@@ -50,6 +50,17 @@ public class CommonConfig {
     public final ModConfigSpec.IntValue CHILL_L2_ACTIVATION_MANA;
     public final ModConfigSpec.IntValue CHILL_L3_ACTIVATION_MANA;
 
+    public final ModConfigSpec.IntValue INFEST_APPLICATION_MANA;
+    public final ModConfigSpec.IntValue INFEST_L1_ACTIVATION_MANA;
+    public final ModConfigSpec.IntValue INFEST_L2_ACTIVATION_MANA;
+    public final ModConfigSpec.IntValue INFEST_L3_ACTIVATION_MANA;
+
+    public final ModConfigSpec.IntValue MAGNETIC_APPLICATION_MANA;
+    public final ModConfigSpec.IntValue MAGNETIC_L1_ACTIVATION_MANA;
+    public final ModConfigSpec.IntValue MAGNETIC_L2_ACTIVATION_MANA;
+    public final ModConfigSpec.IntValue MAGNETIC_L3_ACTIVATION_MANA;
+
+
     public CommonConfig(ModConfigSpec.Builder builder) {
         builder.comment("Arcane Arbor Common Configuration").push("player_mana");
         DEFAULT_MAX_MANA = builder
@@ -153,6 +164,33 @@ public class CommonConfig {
                 .defineInRange("level3ActivationMana", 25, 0, 1000);
         builder.pop();
 
+
+        builder.comment("Infest Enchantment Settings").push("infest");
+        INFEST_APPLICATION_MANA = builder
+                .comment("Mana cost to apply the Infest enchantment at the enchanting table.")
+                .defineInRange("applicationMana", 1500, 0, 50000);
+        INFEST_L1_ACTIVATION_MANA = builder
+                .comment("Mana cost per hit to apply Infest Level 1 (Spreads to 5 targets).")
+                .defineInRange("level1ActivationMana", 20, 0, 1000);
+        INFEST_L2_ACTIVATION_MANA = builder
+                .defineInRange("level2ActivationMana", 30, 0, 1000);
+        INFEST_L3_ACTIVATION_MANA = builder
+                .defineInRange("level3ActivationMana", 50, 0, 1000);
+        builder.pop();
+
+
+        builder.comment("Magnetic Enchantment Settings").push("magnetic");
+        MAGNETIC_APPLICATION_MANA = builder
+                .comment("Mana cost to apply the Magnetic enchantment at the enchanting table.")
+                .defineInRange("applicationMana", 2000, 0, 50000);
+        MAGNETIC_L1_ACTIVATION_MANA = builder
+                .comment("Mana cost per hit to apply Magnetic Level 1 (Pulls items towards the player).")
+                .defineInRange("level1ActivationMana", 15, 0, 1000);
+        MAGNETIC_L2_ACTIVATION_MANA = builder
+                .defineInRange("level2ActivationMana", 25, 0, 1000);
+        MAGNETIC_L3_ACTIVATION_MANA = builder
+                .defineInRange("level3ActivationMana", 40, 0, 1000);
+        builder.pop();
 
     }
 }

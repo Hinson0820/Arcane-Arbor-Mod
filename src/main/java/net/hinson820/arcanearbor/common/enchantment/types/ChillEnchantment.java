@@ -57,11 +57,10 @@ public class ChillEnchantment extends ArcaneEnchantment {
     public List<Component> getTooltip(ItemStack stack, int level) {
         List<Component> tooltipLines = new ArrayList<>();
         int durationSeconds = getSlownessDurationTicks(level) / 20;
-        // Amplifiers are 0-indexed, so Slowness I is amplifier 0. Add 1 for display.
         String slownessLevelRoman = getRomanNumeral(getSlownessAmplifier(level) + 1);
 
         tooltipLines.add(Component.translatable("enchantment." + ArcaneArbor.MODID + ".chill.tooltip.description",
-                        Component.translatable(MobEffects.MOVEMENT_SLOWDOWN.getRegisteredName()), // "Slowness"
+                        Component.translatable(MobEffects.MOVEMENT_SLOWDOWN.toString()), // "Slowness"
                         slownessLevelRoman,
                         durationSeconds)
                 .withStyle(ChatFormatting.AQUA));

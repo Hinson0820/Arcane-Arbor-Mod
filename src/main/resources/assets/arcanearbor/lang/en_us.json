@@ -34,6 +34,14 @@
   "enchantment.arcanearbor.chill": "Chill",
   "enchantment.arcanearbor.chill.tooltip.description": "Applies %s %s to enemies for %s seconds on hit.",
 
+  "enchantment.arcanearbor.infest": "Infest",
+  "enchantment.arcanearbor.infest.tooltip.description": "Tipped arrow effects spread to %s entities within %s blocks.",
+  "enchantment.arcanearbor.infest.tooltip.targets.all": "all",
+
+  "enchantment.arcanearbor.magnetic": "Magnetic Shot",
+  "enchantment.arcanearbor.magnetic.tooltip.description_l1": "Pulls the hit target towards you.",
+  "enchantment.arcanearbor.magnetic.tooltip.description_lx": "Pulls target and other entities within %s blocks of it towards you.",
+
   "tooltip.arcanearbor.arcane_enchantment_singular": "Arcane Enchantment:",
   "tooltip.arcanearbor.arcane_enchantments": "Arcane Enchantments:",
 
